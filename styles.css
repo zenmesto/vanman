@@ -52,11 +52,18 @@ header p {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 32px;
   margin: 0px;
   font-weight: 700;
   color: #00353E;
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 700;
+  color: #00353E;
 }
 
 .Content {
