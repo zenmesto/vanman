@@ -23,7 +23,7 @@ main {
 header {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   align-self: center;
   gap: 8px;
 }
@@ -52,7 +52,8 @@ header p {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 24px;
+  line-height: 120%;
   margin: 0px;
   font-weight: 700;
   color: #00353E;
@@ -61,6 +62,7 @@ h2 {
 
 h3 {
   font-size: 18px;
+  line-height: 140%;
   margin: 0px;
   font-weight: 700;
   color: #00353E;
@@ -70,31 +72,17 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 32px;
 }
 
-.Prices {
+.Section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
 }
 
-.Prices p {
-  font-size: 18px;
-  margin: 0px;
-  font-weight: 400;
-  color: #000000;
-}
-
-.Other {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-}
-
-.Other p {
+.Section p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
